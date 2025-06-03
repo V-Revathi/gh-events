@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
 // My Tests
+// Added another comment to test the commit
 describe('MainContent', () => {
   it('should render a button', () => {
     render(<MainContent />);
